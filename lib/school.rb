@@ -8,5 +8,4 @@ def initialize(name)
 end 
 
 def add_student(name,grade)
-  #roster is a hash 
 roster[grade] = [name]
